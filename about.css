@@ -36,3 +36,54 @@ border: 1px solid blue;
     font-size: 36pt;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.gridcontainer{
+    display: grid;
+    border: 1px solid blue;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    min-width: 0;
+}
+
+
+.gridTitle{
+border: 1px solid blue;
+    grid-column:3 / 6;
+    grid-row: 1 / 2;
+}
+
+.gridF1{
+    border: 1px solid blue;
+    grid-column:3 / 4;
+    grid-row: 3 / 4;
+    min-width: 0;
+    text-wrap: wrap ;
+}
+
+.gridTravel{
+    border: 1px solid blue;
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+    min-width: 0;
+    text-wrap: wrap ;
+}
+
+.gridFood{
+    border: 1px solid blue;
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+    min-width: 0;
+    text-wrap: wrap ;
+}
+
+.gridGuitar{
+    border: 1px solid blue;
+    grid-column: 5 / 6;
+    grid-row: 5 / 6;
+    min-width: 0;
+    text-wrap: wrap ;
+}
+
+.footerItem{
+    font-family: 1.5rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

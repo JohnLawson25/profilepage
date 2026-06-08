@@ -36,3 +36,8 @@ border: 1px solid blue;
     font-size: 36pt;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.footerItem{
+    font-family: 1.5rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
