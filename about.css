@@ -39,49 +39,41 @@ border: 1px solid blue;
 
 .gridcontainer{
     display: grid;
-    border: 1px solid blue;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
-    min-width: 0;
+    /*border: 1px solid blue;*/
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 10rem;
 }
 
-
-.gridTitle{
-border: 1px solid blue;
-    grid-column:3 / 6;
-    grid-row: 1 / 2;
-}
 
 .gridF1{
-    border: 1px solid blue;
-    grid-column:3 / 4;
-    grid-row: 3 / 4;
-    min-width: 0;
-    text-wrap: wrap ;
+    grid-column:2/ 3;
+    grid-row: 1 / 2;
+    margin-left: 3rem;
+   margin-right: 4rem;
 }
 
 .gridTravel{
-    border: 1px solid blue;
-    grid-column: 5 / 6;
-    grid-row: 3 / 4;
-    min-width: 0;
-    text-wrap: wrap ;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    margin-left: 4rem;
+    
+    
 }
 
 .gridFood{
-    border: 1px solid blue;
-    grid-column: 3 / 4;
-    grid-row: 5 / 6;
-    min-width: 0;
-    text-wrap: wrap ;
+    grid-column: 2/ 3;
+    grid-row: 2 / 3;
+    margin-left: 4rem;
+    
 }
 
 .gridGuitar{
-    border: 1px solid blue;
-    grid-column: 5 / 6;
-    grid-row: 5 / 6;
-    min-width: 0;
-    text-wrap: wrap ;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    margin-left: 4rem;
+    
 }
 
 .flexcontainer2{
@@ -94,4 +86,24 @@ border: 1px solid blue;
     background-color: #2b1a1c;
     font-family: 1.5rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: azure;
+}
+
+.searchbar{
+    width: 40%;
+   
+}
+.button{
+    background-color: lightgreen;
+    font-size: 12pt;
+    margin-left: 1rem;
+    border-radius: 5px;
+
+}
+
+.h2title{
+    margin-left: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    font-style: oblique ;
+    text-decoration: underline;
 }

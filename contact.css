@@ -40,3 +40,42 @@ border: 1px solid blue;
 .footerItem{
     font-family: 1.5rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.button{
+    background-color: lightgreen;
+    font-size: 12pt;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+
+.flexcontainer2{
+    display: flex;
+    background-color: #2b1a1c;
+    justify-content: center;
+}
+
+.footerItem{
+    background-color: #2b1a1c;
+    font-family: 1.5rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+}
+
+.flexcontact{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.flexContactItem{
+   /* border: 1px solid black;*/
+    margin-top: 2rem;
+    margin-right: 10rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+
+.searchbar{
+    width: 40%;
+   
+}
