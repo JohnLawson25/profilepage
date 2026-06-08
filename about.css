@@ -84,6 +84,14 @@ border: 1px solid blue;
     text-wrap: wrap ;
 }
 
+.flexcontainer2{
+    display: flex;
+    background-color: #2b1a1c;
+    justify-content: center;
+}
+
 .footerItem{
+    background-color: #2b1a1c;
     font-family: 1.5rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
 }
