@@ -4,7 +4,6 @@
 }
 
 .flexItem{
-    border: 1px solid blue;
     background-color: #2b1a1c;
     color: azure;
    margin: 1rem;
@@ -15,7 +14,6 @@
 
 
 .flexItem2 {
-border: 1px solid blue;
     background-color: #2b1a1c;
     color: azure;
     padding: 1rem;
@@ -28,13 +26,12 @@ border: 1px solid blue;
 
 
 .flexname{
-        border: 1px solid blue;
     background-color: #2b1a1c;
     color: azure;
    margin: 1rem;
     padding: 1rem;
     font-size: 36pt;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .footerItem{
@@ -52,6 +49,7 @@ border: 1px solid blue;
     display: flex;
     background-color: #2b1a1c;
     justify-content: center;
+    margin-top: 5rem;
 }
 
 .footerItem{
